@@ -2,21 +2,23 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "./About.scss";
 
+import { images } from "../../constants";
+
 const abouts = [
   {
     title: "Web Development",
     description: "I am a good developer",
-    imgURL: " ",
+    imgURL: images.about01,
   },
   {
     title: "Front End",
     description: "I know react and vue",
-    imgURL: " ",
+    imgURL: images.about02,
   },
   {
     title: "Design",
     description: "I know CSS and Sass",
-    imgURL: " ",
+    imgURL: images.about03,
   },
 ];
 
