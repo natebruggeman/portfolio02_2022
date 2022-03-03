@@ -11,12 +11,12 @@ const abouts = [
     imgURL: images.about01,
   },
   {
-    title: "Front End",
+    title: "Frontend",
     description: "I know react and vue",
     imgURL: images.about02,
   },
   {
-    title: "Design",
+    title: "Backend",
     description: "I know CSS and Sass",
     imgURL: images.about03,
   },
