@@ -4,24 +4,6 @@ import "./About.scss";
 import { urlFor, client } from "../../client";
 import { images } from "../../constants";
 
-// const abouts = [
-//   {
-//     title: "Web Development",
-//     description: "I am a good developer",
-//     imgURL: images.about01,
-//   },
-//   {
-//     title: "Frontend",
-//     description: "I know react and vue",
-//     imgURL: images.about02,
-//   },
-//   {
-//     title: "Backend",
-//     description: "I know CSS and Sass",
-//     imgURL: images.about03,
-//   },
-// ];
-
 const About = () => {
   const [abouts, setAbouts] = useState([]);
   useEffect(() => {
