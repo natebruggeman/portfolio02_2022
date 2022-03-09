@@ -9,7 +9,6 @@ const About = () => {
   const [abouts, setAbouts] = useState([]);
   useEffect(() => {
     const query = '*[_type == "abouts"]';
-    console.log(query);
 
     client.fetch(query).then((data) => setAbouts(data));
   }, []);
